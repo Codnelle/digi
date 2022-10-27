@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #2f2f2f;
+        }
+
+        .banner {
+            position: relative;
+            z-index: 1;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            overflow: hidden;
+            width: 27em;
+            height: 3em;
+            padding-right: 0;
+            padding-left: 0;
+            -webkit-box-align: stretch;
+            -webkit-align-items: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            border: 1px #fff;
+        }
+
+        .marquee-wrapper {
+            will-change: transform;
+            animation: banner 7s linear infinite;
+        }
+
+        .marquee-wrapper {
+            position: absolute;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 101%;
+            height: 100%;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .div-block-68 {
+            position: absolute;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            height: 100%;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+        }
+
+        .p2 {
+            font-size: 12px;
+        }
+
+        .p2 {
+            margin-bottom: 0;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 auto;
+            -ms-flex: 0 auto;
+            flex: 0 auto;
+            font-family: Ppneuebit, Arial, sans-serif;
+            font-size: .9em;
+            font-weight: 400;
+            letter-spacing: .1em;
+        }
+
+        .dot {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 0.75em;
+            height: 0.75em;
+            margin-right: 0.5em;
+            margin-bottom: 0.2em;
+            margin-left: 0.5em;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            border-radius: 500px;
+        }
+
+        .p2 {
+            margin-bottom: 0;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 auto;
+            -ms-flex: 0 auto;
+            flex: 0 auto;
+            font-family: Ppneuebit, Arial, sans-serif;
+            font-size: .9em;
+            font-weight: 400;
+            letter-spacing: .1em;
+        }
+
+        .p2.keep {
+            font-size: .9em;
+        }
+
+        .div-block-67 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+        }
+
+        ::-webkit-scrollbar {
+            height: 0px;
+            width: 10px;
+        }
+
+        @keyframes banner {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .banner-sides {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+        }
+        .banner-bottom {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: auto;
+            border: 5px #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="mailto:admin@henrynorthington.com?subject=Freelance%20Inquiry" class="banner w-inline-block">
+        <div class="marquee-wrapper">
+            <div class="div-block-68">
+                <div class="p2 keep">Available for freelance work</div>
+                <div class="dot"><img
+                        src="https://assets.website-files.com/62bf127eaeec3d61cdd77091/62bf127eaeec3dbbbbd770e3_small-circle.svg"
+                        loading="lazy" alt="" class="small-circle"></div>
+                <div class="p2 keep">Available for freelance work</div>
+                <div class="dot"><img
+                        src="https://assets.website-files.com/62bf127eaeec3d61cdd77091/62bf127eaeec3dbbbbd770e3_small-circle.svg"
+                        loading="lazy" alt="" class="small-circle"></div>
+                <div class="p2 keep">Available for freelance work</div>
+                <div class="dot"><img
+                        src="https://assets.website-files.com/62bf127eaeec3d61cdd77091/62bf127eaeec3dbbbbd770e3_small-circle.svg"
+                        loading="lazy" alt="" class="small-circle"></div>
+                <div class="div-block-67">
+                    <div class="p2 keep">Available for freelance work</div>
+                    <div class="dot"><img
+                            src="https://assets.website-files.com/62bf127eaeec3d61cdd77091/62bf127eaeec3dbbbbd770e3_small-circle.svg"
+                            loading="lazy" alt="" class="small-circle"></div>
+                    <div class="p2 keep">Available for freelance work</div>
+                    <div class="dot"><img
+                            src="https://assets.website-files.com/62bf127eaeec3d61cdd77091/62bf127eaeec3dbbbbd770e3_small-circle.svg"
+                            loading="lazy" alt="" class="small-circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="marquee-line"></div>
+        <div class="marquee-line bottom"></div>
+        <div class="banner-sides"><img
+                src="https://assets.website-files.com/62bf127eaeec3d61cdd77091/62bf127eaeec3d6637d770c7_marquee-left-2.svg"
+                loading="lazy" alt="" class="image-10"><img
+                src="https://assets.website-files.com/62bf127eaeec3d61cdd77091/62bf127eaeec3dbe15d770c8_marquee-right-2.svg"
+                loading="lazy" alt="" class="image-11"></div>
+    </a>
+</body>
+
+</html>
